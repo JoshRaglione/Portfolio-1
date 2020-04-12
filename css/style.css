@@ -1,0 +1,9 @@
+body {
+    background-color: #cafca485;
+}
+#landing-page-navbar {
+    background-color: #fff8a4!important;
+}
+#navbarNavDropdown .nav-item{
+    margin-left: 10rem;
+}
