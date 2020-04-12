@@ -7,10 +7,12 @@ body {
 }
 .navbar-light .navbar-nav .nav-link{
     color: rgb(6, 6, 6);
+    text-decoration: underline;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: rgb(190, 0, 0);
     font-size: 1.6rem;
+    text-decoration: none;
 }
 .bg-color {
     background-color: white;
@@ -18,6 +20,31 @@ body {
 .project-header {
     letter-spacing: 3rem;
     color: black;
+    text-shadow: 1px 1px 2px white, 0 0 1em #acacac, 0 0 0.2em black;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.card-img-top {
+    height:4em;
+}
+img:hover {
+    opacity: .5;
 }
 
 
