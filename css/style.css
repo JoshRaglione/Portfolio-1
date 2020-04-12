@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
 body {
     background-color: #cafca485;
+    font-family: 'Cabin', Tahoma, Geneva, Verdana, sans-serif;
 }
 #landing-page-navbar {
     background-color: #fff8a4!important;
 }
-#navbarNavDropdown .nav-item{
-    margin-left: 10rem;
+#navbarNavDropdown .nav-item a{
+    /* margin-left: 10rem; */
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+#landing-navbar-header h4 {
+    color: #71d703;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #7cb64f, 0 0 1em black, 0 0 0.2em #5c562b;
 }
