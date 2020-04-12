@@ -19,3 +19,25 @@ body {
     font-size: 1.6rem;
     color: #727272;
 }
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgb(250, 108, 100);
+}
+#epicodus {
+    border-bottom: 3px solid #C95D87;;
+    color: #2842d7;
+  }
+  
