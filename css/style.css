@@ -32,12 +32,14 @@ hr.style-eight:after {
     content: "§";
     display: inline-block;
     position: relative;
-    top: -0.9em;
-    font-size: 1em;
+    top: -1.2em;
+    font-size: .8em;
     padding: 0 0.25em;
     background: rgb(250, 108, 100);
 }
 #who-i-am {
+    padding: 5px;
+    border-radius: 25px;
     background-color: bisque;
 }
 #epicodus {
@@ -79,6 +81,17 @@ hr.style-eight:after {
     content: "\f16c";
     color: rgb(67, 67, 67);
 }
+@media only screen and (max-width: 910px) {
+    #landing-page-headshot {
+        height: 10rem;
+        width: 25%;
+    }
+  }
+@media only screen and (max-width: 510px) {
+    #landing-page-navbar a {
+        font-size: 1rem;
+    }
+  }
 
 
   
