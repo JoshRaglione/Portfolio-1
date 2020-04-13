@@ -9,7 +9,7 @@ body {
     transform: rotate(90deg);
     height: 18rem;
     width: 25%;
-    margin-top: 10%;
+    margin-top: 4%;
     border: 2px solid rgb(255, 255, 255);
 }
 #landing-page-navbar a {
@@ -50,13 +50,27 @@ hr.style-eight:after {
     font-size: 1.8rem;
     color: #003741;
   }
+  .html-logo {
+    width: 1.6em;
+    height: 1.6em;
+  }
+  .css-logo {
+      margin-left: 2%;
+    width: 1.6em;
+    height: 1.6em;
+  }
+  .js-logo {
+      width: 3.2em;
+      height: 1.8em;
+  }
+  .bootstrap-logo {
+    width: 2em;
+    height: 2em;
+  }
   .img-links {
       height: 100px;
       width: 50%;
   }
-  img, #hackerrank {
-    height: 50%;
-}
 .fa-github-square {
     content: "\f092";
     color: black;
@@ -67,7 +81,7 @@ hr.style-eight:after {
 }
 .fa-linkedin-square {
     content: "\f08c";
-    color: black;
+    color: rgb(10, 119, 181);
 }
 .fa-linkedin-square:hover {
     content: "\f08c";
