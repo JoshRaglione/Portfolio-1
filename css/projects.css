@@ -5,6 +5,9 @@ body {
     font-family: 'Cabin', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
 }
+.navbar {
+    width: 100%;
+}
 .navbar-light .navbar-nav .nav-link{
     color: rgb(6, 6, 6);
     text-decoration: underline;
@@ -62,7 +65,17 @@ img:hover {
     color: white;
     opacity: .5;
 }
-
+@media only screen and (max-width: 770px) {
+    .project-header {
+        letter-spacing: normal;
+    }
+    a.nav-link.home-link {
+        margin-left: 30%;
+    }
+    .card {
+        height: 25em;
+    }
+  }
 
 
   
