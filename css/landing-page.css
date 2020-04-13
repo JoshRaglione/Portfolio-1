@@ -9,7 +9,7 @@ body {
     transform: rotate(90deg);
     height: 18rem;
     width: 25%;
-    margin-top: 4%;
+    margin-top: 10%;
     border: 2px solid rgb(255, 255, 255);
 }
 #landing-page-navbar a {
@@ -67,6 +67,10 @@ hr.style-eight:after {
     width: 2em;
     height: 2em;
   }
+  .git-logo {
+    width: 2em;
+    height: 2em;
+  }
   .img-links {
       height: 100px;
       width: 50%;
@@ -104,6 +108,11 @@ hr.style-eight:after {
 @media only screen and (max-width: 510px) {
     #landing-page-navbar a {
         font-size: 1rem;
+    }
+    #landing-page-headshot {
+        margin-top: 0%;
+        height: 10rem;
+        width: 40%;
     }
   }
 
