@@ -46,6 +46,9 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 .herbal {
     height:10em;
 }
+#cat {
+    height:14em;
+}
 img:hover {
     color: white;
     opacity: .5;
