@@ -43,7 +43,11 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 .card-img-top {
     height:4em;
 }
+.herbal {
+    height:10em;
+}
 img:hover {
+    color: white;
     opacity: .5;
 }
 
