@@ -6,7 +6,7 @@ body {
     font-size: 2rem;
 }
 #landing-page-headshot {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     height: 18rem;
     width: 25%;
     margin-top: 10%;
